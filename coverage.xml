@@ -1,0 +1,54 @@
+<top abs_name="top" size="40" coverage="40" cover_percentage="100.0">
+  <alu size="40" coverage="40" cover_percentage="100.0" abs_name="top.alu">
+    <op size="8" coverage="8" cover_percentage="100.0" abs_name="top.alu.op" weight="1" at_least="1">
+      <bin0 bin="0" hits="25" abs_name="top.alu.op.bin0" />
+      <bin1 bin="1" hits="20" abs_name="top.alu.op.bin1" />
+      <bin2 bin="2" hits="16" abs_name="top.alu.op.bin2" />
+      <bin3 bin="3" hits="16" abs_name="top.alu.op.bin3" />
+      <bin4 bin="4" hits="18" abs_name="top.alu.op.bin4" />
+      <bin5 bin="5" hits="11" abs_name="top.alu.op.bin5" />
+      <bin6 bin="6" hits="16" abs_name="top.alu.op.bin6" />
+      <bin7 bin="7" hits="19" abs_name="top.alu.op.bin7" />
+    </op>
+    <a_range size="3" coverage="3" cover_percentage="100.0" abs_name="top.alu.a_range" weight="1" at_least="1">
+      <bin0 bin="zero" hits="10" abs_name="top.alu.a_range.bin0" />
+      <bin1 bin="low" hits="70" abs_name="top.alu.a_range.bin1" />
+      <bin2 bin="high" hits="61" abs_name="top.alu.a_range.bin2" />
+    </a_range>
+    <b_range size="3" coverage="3" cover_percentage="100.0" abs_name="top.alu.b_range" weight="1" at_least="1">
+      <bin0 bin="zero" hits="20" abs_name="top.alu.b_range.bin0" />
+      <bin1 bin="low" hits="62" abs_name="top.alu.b_range.bin1" />
+      <bin2 bin="high" hits="59" abs_name="top.alu.b_range.bin2" />
+    </b_range>
+    <result_zero size="2" coverage="2" cover_percentage="100.0" abs_name="top.alu.result_zero" weight="1" at_least="1">
+      <bin0 bin="True" hits="12" abs_name="top.alu.result_zero.bin0" />
+      <bin1 bin="False" hits="129" abs_name="top.alu.result_zero.bin1" />
+    </result_zero>
+    <op_x_a size="24" coverage="24" cover_percentage="100.0" abs_name="top.alu.op_x_a" weight="1" at_least="1">
+      <bin0 bin="(0, 'zero')" hits="2" abs_name="top.alu.op_x_a.bin0" />
+      <bin1 bin="(0, 'low')" hits="13" abs_name="top.alu.op_x_a.bin1" />
+      <bin2 bin="(0, 'high')" hits="10" abs_name="top.alu.op_x_a.bin2" />
+      <bin3 bin="(1, 'zero')" hits="1" abs_name="top.alu.op_x_a.bin3" />
+      <bin4 bin="(1, 'low')" hits="15" abs_name="top.alu.op_x_a.bin4" />
+      <bin5 bin="(1, 'high')" hits="4" abs_name="top.alu.op_x_a.bin5" />
+      <bin6 bin="(2, 'zero')" hits="1" abs_name="top.alu.op_x_a.bin6" />
+      <bin7 bin="(2, 'low')" hits="5" abs_name="top.alu.op_x_a.bin7" />
+      <bin8 bin="(2, 'high')" hits="10" abs_name="top.alu.op_x_a.bin8" />
+      <bin9 bin="(3, 'zero')" hits="1" abs_name="top.alu.op_x_a.bin9" />
+      <bin10 bin="(3, 'low')" hits="4" abs_name="top.alu.op_x_a.bin10" />
+      <bin11 bin="(3, 'high')" hits="11" abs_name="top.alu.op_x_a.bin11" />
+      <bin12 bin="(4, 'zero')" hits="1" abs_name="top.alu.op_x_a.bin12" />
+      <bin13 bin="(4, 'low')" hits="8" abs_name="top.alu.op_x_a.bin13" />
+      <bin14 bin="(4, 'high')" hits="9" abs_name="top.alu.op_x_a.bin14" />
+      <bin15 bin="(5, 'zero')" hits="2" abs_name="top.alu.op_x_a.bin15" />
+      <bin16 bin="(5, 'low')" hits="3" abs_name="top.alu.op_x_a.bin16" />
+      <bin17 bin="(5, 'high')" hits="6" abs_name="top.alu.op_x_a.bin17" />
+      <bin18 bin="(6, 'zero')" hits="1" abs_name="top.alu.op_x_a.bin18" />
+      <bin19 bin="(6, 'low')" hits="11" abs_name="top.alu.op_x_a.bin19" />
+      <bin20 bin="(6, 'high')" hits="4" abs_name="top.alu.op_x_a.bin20" />
+      <bin21 bin="(7, 'zero')" hits="1" abs_name="top.alu.op_x_a.bin21" />
+      <bin22 bin="(7, 'low')" hits="11" abs_name="top.alu.op_x_a.bin22" />
+      <bin23 bin="(7, 'high')" hits="7" abs_name="top.alu.op_x_a.bin23" />
+    </op_x_a>
+  </alu>
+</top>

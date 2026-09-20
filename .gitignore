@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+cocotb_env/
+ENV/
+
+# cocotb / Simulator output
+sim_build/
+results.xml
+*.vcd
+*.fst
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+output.txt
+*.log

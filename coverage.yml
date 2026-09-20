@@ -1,0 +1,85 @@
+alu:
+  cover_percentage: 100.0
+  coverage: 40
+  size: 40
+  type: <class 'cocotb_coverage.coverage.CoverItem'>
+alu.a_range:
+  at_least: 1
+  bins:_hits:
+    high: 61
+    low: 70
+    zero: 10
+  cover_percentage: 100.0
+  coverage: 3
+  size: 3
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+alu.b_range:
+  at_least: 1
+  bins:_hits:
+    high: 59
+    low: 62
+    zero: 20
+  cover_percentage: 100.0
+  coverage: 3
+  size: 3
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+alu.op:
+  at_least: 1
+  bins:_hits:
+    0: 25
+    1: 20
+    2: 16
+    3: 16
+    4: 18
+    5: 11
+    6: 16
+    7: 19
+  cover_percentage: 100.0
+  coverage: 8
+  size: 8
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
+alu.op_x_a:
+  at_least: 1
+  bins:_hits:
+    (0, 'high'): 10
+    (0, 'low'): 13
+    (0, 'zero'): 2
+    (1, 'high'): 4
+    (1, 'low'): 15
+    (1, 'zero'): 1
+    (2, 'high'): 10
+    (2, 'low'): 5
+    (2, 'zero'): 1
+    (3, 'high'): 11
+    (3, 'low'): 4
+    (3, 'zero'): 1
+    (4, 'high'): 9
+    (4, 'low'): 8
+    (4, 'zero'): 1
+    (5, 'high'): 6
+    (5, 'low'): 3
+    (5, 'zero'): 2
+    (6, 'high'): 4
+    (6, 'low'): 11
+    (6, 'zero'): 1
+    (7, 'high'): 7
+    (7, 'low'): 11
+    (7, 'zero'): 1
+  cover_percentage: 100.0
+  coverage: 24
+  size: 24
+  type: <class 'cocotb_coverage.coverage.CoverCross'>
+  weight: 1
+alu.result_zero:
+  at_least: 1
+  bins:_hits:
+    false: 129
+    true: 12
+  cover_percentage: 100.0
+  coverage: 2
+  size: 2
+  type: <class 'cocotb_coverage.coverage.CoverPoint'>
+  weight: 1
