@@ -1,135 +1,44 @@
-\# HDL Verification Portfolio
+## 🚀 HDL Verification 
+A collection of digital design modules written in Verilog, integrated with an automated verification framework built using cocotb and Python.
+## 📋 Featured Projects
+ProjectDescriptionTest CasesCounter8-bit counter featuring reset logic and overflow detection.3 ✅Vending MachineFinite State Machine (FSM) based vending system handling multiple states.7 ✅
+## 🛠️ Prerequisites
+Make sure you have the following installed on your system before getting started:
 
+* Python (v3.9 or higher)
 
+* Icarus Verilog (for HDL simulation)
 
-مجموعة من الدوائر الرقمية (Verilog) مع إطار تحقق آلي (Automated Verification) مبني على \*\*cocotb\*\* و \*\*Python\*\*.
+* cocotb
 
+## 💻 Setup & Installation
+# 1. Create a virtual environment
+python -m venv cocotb_env
 
+# 2. Activate the virtual environment
+# On Windows:
+cocotb_env\Scripts\activate
 
-\## 📋 المشاريع الحالية
+# On Linux / macOS:
+source cocotb_env/bin/activate
 
-
-
-| المشروع | الوصف | الاختبارات |
-
-|---------|-------|-----------|
-
-| \*\*Counter\*\* | عداد 8-بت مع تصفير وكشف overflow | 3 ✅ |
-
-| \*\*Vending Machine\*\* | آلة بيع FSM بحالات متعددة | 7 ✅ |
-
-
-
-\## 🛠️ المتطلبات
-
-
-
-\- Python 3.9+
-
-\- Icarus Verilog
-
-\- cocotb
-
-
-
-\## 🚀 التثبيت
-
-
-
-```bash
-
-\\# 1. إنشاء بيئة افتراضية
-
-python -m venv cocotb\\\_env
-
-
-
-\\# 2. تفعيلها
-
-\\# Windows:
-
-cocotb\\\_env\\\\Scripts\\\\activate
-
-\\# Linux/Mac:
-
-source cocotb\\\_env/bin/activate
-
-
-
-\\# 3. تثبيت المكتبات
-
+# 3. Install required dependencies
 pip install -r requirements.txt
 
+## 🏃 Running Tests
+* You can run the verification environment for each project independently using their respective runners:
+  # Run tests for the Counter module
+python runners/run_counter.py
 
-\----------------------------------------------------------------------------------------- 
+# Run tests for the Vending Machine module
+python runners/run_vending.py
 
-
-
-🏃 تشغيل الاختبارات
-
-
-
-\# اختبار العدّاد
-
-python runners/run\_counter.py
-
-
-
-\# اختبار آلة البيع
-
-python runners/run\_vending.py
-
-
-
-
-
-\-----------------------------------------------------------------------------------------
-
-
-
-📁 بنية المشروع
-
+## 📁 Repository Structure
 hdl-automation/
-
-├── duts/              ← الدوائر (Design Under Test)
-
-├── tests/             ← ملفات الاختبار
-
-├── runners/           ← مشغلات الاختبار
-
-├── requirements.txt
-
-└── README.md
-
-
-
-\-----------------------------------------------------------------------------------------
-
-
-
-👤 المؤلف
-
-Zeyad
-
-
-
-\-----------------------------------------------------------------------------------------
-
-
-
-المتوقع
-
-cocotb\_env
-
-duts
-
-runners
-
-tests
-
-.gitignore
-
-requirements.txt
-
-README.md
-
+├── duts/               # Hardware designs (Design Under Test)
+├── tests/              # Testbenches and test scenarios
+├── runners/            # Simulation test runners
+├── .gitignore          # Ignored simulation and environment files
+├── requirements.txt    # Python package dependencies
+└── README.md           # Project documentation
+## 👤 Author: Zeyad
